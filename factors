@@ -13,10 +13,10 @@ def factorize():
                 continue
             for i in range(3, int(sqrt(number)) + 1, 2):
                 if number % i == 0:
-                    print(f"{number//i}*{i}")
+                    print(f"{i}*{number//i}")
                     break
             if number % i != 0:
-                print(f"{number}={number}*1")
+                print(f"{number}=1*{number}")
 
 
-factorize() 
+factorize()
